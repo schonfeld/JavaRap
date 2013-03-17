@@ -1,0 +1,16 @@
+public Yard myYard_;
+public Yard yourYard_;
+
+public void assignBoys(Collection<Boy> allTheBoys)
+{
+  for(Boy boy : allTheBoys)
+    if(self_.hasMilkshake())
+      myYard_.add(boy);
+}
+
+for(Boy boy : allTheBoys)
+  if( boy.compare(myYard_, yourYard_) > 0 )
+    System.out.println("It's better than yours");
+
+[Output]
+> It's better than yours

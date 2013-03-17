@@ -1,0 +1,13 @@
+public enum Problems {
+  ...
+}
+
+public static void main(String[] args) {
+  System.out.println(Problems.values().length);
+
+  Problems.valueOf("A bitch");
+}
+
+[Output]
+> 99
+> java.lang.NullPointerException
